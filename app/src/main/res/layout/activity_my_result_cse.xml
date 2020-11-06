@@ -1,0 +1,4008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MyResultCse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/cse_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:text="CSE -1st semester ( Regulation- 2017 )"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_margin="5dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SI.N0"
+                    android:padding="3dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="#E6E61747"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#E6E61747"
+                    android:text="NAME OF THE SUBJECT"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#E6E61747"
+                    android:text="SYLLABUS"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="COMMUNICATIVE\nENGLISH"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+
+                    android:id="@+id/cse_sem1_g1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="ENGINEERING\nMATHEMATICS - 1"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+
+                    android:id="@+id/cse_sem1_g2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="ENGINEERING \nPHYSICS 1"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+
+                    android:id="@+id/cse_sem1_g3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="ENGINEERING\nCHEMISTRY"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem1_g4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="PROB. SOLVING AND\n PYTHON PROGRAM"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+
+                    android:id="@+id/cse_sem1_g5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="ENGINEERING\nGRAPHICS"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem1_g6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="prob solving &amp; python\nprogramming lab"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+
+                    android:id="@+id/cse_sem1_g7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="physics &amp; chemistry\nlab"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem1_g8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:layout_margin="2dp">
+            <TableRow>
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"/>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Semester 1 GPA is"
+                    android:layout_weight="0"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem1_gpa"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"/>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/green"/>
+                </TableRow>
+               </TableLayout>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cse_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:text="CSE 2nd semester ( Regulation- 2017 )"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_margin="5dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SI.N0"
+                    android:padding="3dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="#E6E61747"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#E6E61747"
+                    android:text="NAME OF THE SUBJECT"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#E6E61747"
+                    android:text="SYLLABUS"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="TECHNICAL\nENGLISH"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+
+                    android:id="@+id/cse_sem2_g1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="ENGINEERING\nMATHEMATICS - 2"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+
+                    android:id="@+id/cse_sem2_g2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="Physics for\nInformation Science"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+
+                    android:id="@+id/cse_sem2_g3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="Basic Electrical &amp;\nMeasurement Engg"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem2_g4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="Environmental\nScience &amp; Engg"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem2_g5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="Programming \nin C"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem2_g6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="C Programming\nlab"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem2_g7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="Engineering Practices\nLab"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem2_g8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+              <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:layout_margin="2dp">
+
+              <TableRow>
+                           <TextView
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0"
+                                android:paddingTop="20dp"
+                                android:paddingBottom="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@color/white"
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/green"/>
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:text="Semester 2 GPA is"
+                                android:layout_weight="0"
+                                android:paddingTop="20dp"
+                                android:paddingBottom="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:gravity="center"
+                                android:background="@color/white"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"/>
+
+                            <TextView
+                                android:id="@+id/cse_sem2_gpa"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0"
+                                android:paddingTop="20dp"
+                                android:paddingBottom="30dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@color/white"
+                                android:text="---"
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/green"/>
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0"
+                                android:paddingTop="20dp"
+                                android:paddingBottom="30dp"
+                                android:layout_marginEnd="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@color/white"
+                                android:gravity="center"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/green"/>
+                 </TableRow>
+
+                     </TableLayout>
+
+                    </TableLayout>
+
+            </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/cse_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:text="CSE 3rd semester ( Regulation- 2017 )"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:gravity="center"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_margin="5dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SI.N0"
+                    android:padding="3dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="#E6E61747"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#E6E61747"
+                    android:text="NAME OF THE SUBJECT"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#E6E61747"
+                    android:text="SYLLABUS"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="DISCRETE\nMATHEMATICS"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem3_g1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="DIGITAL PRINCIPLES\nAND SYSTEM DESIGN"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem3_g2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="DATA \nSTRUCTURES"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem3_g3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="OBJECT ORIENTED\nPROGRAMMING"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem3_g4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="COMMUNICATION \nENGINEERING"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem3_g5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="Data Structures\nLab"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem3_g6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="Object Oriented\nprogramming Lab"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem3_g7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="Digital Systems\nLab"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem3_g8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="Interpersonal Skills\nListening &amp; Speaking"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/cse_sem3_g9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="38dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/white"
+                    android:text="---"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"/>
+            </TableRow>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:layout_margin="2dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="30dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/green"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Semester 3 GPA is"
+                        android:layout_weight="0"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="30dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem3_gpa"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="30dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/green"/>
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="30dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+            </TableLayout>
+        </TableLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cse_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="CSE 4th semester ( Regulation- 2017 )"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:gravity="center"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:layout_margin="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SI.N0"
+                        android:padding="3dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="#E6E61747"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="NAME OF THE SUBJECT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="SYLLABUS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Probability &amp;\nQueueing Theory"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem4_g1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Computer\nArchitecture"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem4_g2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Database\nManagement Systems"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem4_g3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Design and Analysis\nof Algorithms"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem4_g4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Operating\nSystems"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem4_g5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Software\nEngineering"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem4_g6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Operating\nSystems Lab"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem4_g7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Database Management\nSystems Lab"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem4_g8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Advanced Reading &amp;\nWriting"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem4_g9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:layout_margin="2dp">
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Semester 4 GPA is"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="@color/white"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/cse_sem4_gpa"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:text="---"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                    </TableRow>
+
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cse_layout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="CSE 5th semester ( Regulation- 2017 )"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:gravity="center"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:layout_margin="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SI.N0"
+                        android:padding="3dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="#E6E61747"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="NAME OF THE SUBJECT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="SYLLABUS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Algebra &amp;\nNumber theory"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem5_g1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Computer\nNetworks"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem5_g2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Microprocessors and\nMicrocontrollers"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem5_g3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Theory of\nComputation"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem5_g4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Object Oriented\nAnalysis &amp; Design"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem5_g5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Open Elective\nI"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem5_g6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Microprocessors and\nMicrocontrollers Lab"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem5_g7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Object Oriented Analysis\n&amp; Design Lab"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem5_g8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Networks\nLab"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem5_g9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:layout_margin="2dp">
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Semester 5 GPA is"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="@color/white"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/cse_sem5_gpa"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:text="---"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                    </TableRow>
+
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cse_layout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="CSE 6th semester ( Regulation- 2017 )"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:gravity="center"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:layout_margin="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SI.N0"
+                        android:padding="3dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="#E6E61747"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="NAME OF THE SUBJECT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="SYLLABUS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Internet\nProgramming"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Artificial\nIntelligence"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Mobile\nComputing"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Compiler\nDesign"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Distributed\nSystems"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Professional\nElective I"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Internet\nProgramming Lab"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Mobile Application\nDevelopment Lab"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Mini\nProject"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Professional\nCommunication"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem6_g10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:layout_margin="2dp">
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Semester 6 GPA is"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="@color/white"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/cse_sem6_gpa"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:text="---"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                    </TableRow>
+
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cse_layout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="CSE 7th semester ( Regulation- 2017 )"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:gravity="center"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:layout_margin="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SI.N0"
+                        android:padding="3dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="#E6E61747"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="NAME OF THE SUBJECT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="SYLLABUS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Principles of\nManagement"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem7_g1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Cryptography &amp;\nNetwork Security"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem7_g2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Cloud\nComputing"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem7_g3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Open Elective\nII"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem7_g4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Professional\nElective II"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem7_g5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Professional\nElective III"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem7_g6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Cloud Computing\nLab"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem7_g7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Security\nLab"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem7_g8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:layout_margin="2dp">
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Semester 7 GPA is"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="@color/white"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/cse_sem7_gpa"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:text="---"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                    </TableRow>
+
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cse_layout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:text="CSE 8th semester ( Regulation- 2017 )"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:gravity="center"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:layout_margin="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SI.N0"
+                        android:padding="3dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="#E6E61747"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="NAME OF THE SUBJECT"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="3dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#E6E61747"
+                        android:text="SYLLABUS"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Professional\nElective IV"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem8_g1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Professional\nElective V"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem8_g2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:gravity="center"
+                        android:background="@color/white"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="Project\nWork"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/cse_sem8_g3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="38dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@color/white"
+                        android:text="---"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/green"/>
+                </TableRow>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:layout_margin="2dp">
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Semester 8 GPA is"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:gravity="center"
+                            android:background="@color/white"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/cse_sem8_gpa"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:text="---"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/white"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/green"/>
+                    </TableRow>
+
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

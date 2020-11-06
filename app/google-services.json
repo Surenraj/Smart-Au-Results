@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "32873930199",
+    "firebase_url": "https://calcjit.firebaseio.com",
+    "project_id": "calcjit",
+    "storage_bucket": "calcjit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32873930199:android:b6146934edff444af87f92",
+        "android_client_info": {
+          "package_name": "com.example.calcjit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32873930199-tljdv7u2q0d11sruaonet31lf67rgqc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk3boZGOgGNywF6WX849niaCR5Leh5Bd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32873930199-tljdv7u2q0d11sruaonet31lf67rgqc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

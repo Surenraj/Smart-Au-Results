@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="50dp"
+    android:background="@color/white">
+
+
+
+    <ImageView
+        android:id="@+id/close_dialog"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="6dp"
+        android:src="@drawable/ic_close" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/google"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="sync.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/google"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="To save your result, First sync with  your google account"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#292929" />
+
+    <Button
+        android:id="@+id/signin_withgoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30dp"
+        android:background="#8DFFFFFF"
+        android:text="Sync with GOOGLE"
+        android:paddingStart="15dp"
+        android:drawableStart="@drawable/ic_google_logo"
+        android:textColor="#292929"
+        android:textSize="14sp" />
+
+</RelativeLayout>
