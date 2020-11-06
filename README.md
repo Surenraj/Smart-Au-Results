@@ -1,2 +1,2 @@
-# See_GPA
-Anna Univ GPA and CGPA calculator3
+# See GPA
+Anna Univ GPA and CGPA calculator
